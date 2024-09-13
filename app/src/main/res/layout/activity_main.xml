@@ -208,23 +208,37 @@
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
-            <LinearLayout
+            <Button
+                android:id="@+id/borrar"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="2"
-                android:orientation="horizontal">
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FF9800"
+                android:text="C"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
-                <Button
-                    android:id="@+id/operador"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_margin="5dp"
-                    android:layout_weight="1"
-                    android:backgroundTint="#FF9800"
-                    android:text="="
-                    android:textSize="24sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
+            <Button
+                android:id="@+id/igual"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FF9800"
+                android:text="="
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FF9800"
+                android:text="x"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
     </LinearLayout>
