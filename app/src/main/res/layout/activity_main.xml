@@ -17,57 +17,64 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
     >
+
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="0"
-            android:textColor="#FFF"
-            android:textAlignment="textEnd"
-            android:textStyle="bold"
-            android:textSize="36sp"
             android:layout_marginTop="200dp"
             android:layout_marginEnd="15dp"
-        />
+            android:text="0"
+            android:textAlignment="textEnd"
+            android:textColor="#FFF"
+            android:textSize="36sp"
+            android:textStyle="bold" />
 
         <LinearLayout style="@style/layoutHorizontal">
+
             <Button
                 android:id="@+id/numero7"
                 style="@style/botonGris"
-                android:text="@string/numero7"/>
+                android:onClick="numero7"
+                android:text="@string/numero7" />
 
             <Button
                 android:id="@+id/numero8"
                 style="@style/botonGris"
-                android:text="@string/numero8"/>
+                android:onClick="numero8"
+                android:text="@string/numero8" />
 
             <Button
                 android:id="@+id/numero9"
                 style="@style/botonGris"
-                android:text="@string/numero9"/>
+                android:onClick="numero9"
+                android:text="@string/numero9" />
 
             <Button
                 android:id="@+id/dividir"
                 style="@style/botonAmarillo"
-                android:onClick="dividir"
                 android:text="@string/botonDividir" />
         </LinearLayout>
 
         <LinearLayout style="@style/layoutHorizontal">
+
             <Button
                 android:id="@+id/numero4"
                 style="@style/botonGris"
-                android:text="@string/numero4"/>
+                android:onClick="numero4"
+                android:text="@string/numero4" />
 
             <Button
                 android:id="@+id/numero5"
                 style="@style/botonGris"
-                android:text="@string/numero5"/>
+                android:onClick="numero5"
+                android:text="@string/numero5" />
 
             <Button
                 android:id="@+id/numero6"
                 style="@style/botonGris"
-                android:text="@string/numero6"/>
+                android:onClick="numero6"
+                android:text="@string/numero6" />
 
             <Button
                 android:id="@+id/restar"
@@ -76,19 +83,23 @@
         </LinearLayout>
 
         <LinearLayout style="@style/layoutHorizontal">
+
             <Button
                 android:id="@+id/numero1"
                 style="@style/botonGris"
-                android:text="@string/numero1"/>
+                android:onClick="numero1"
+                android:text="@string/numero1" />
 
             <Button
                 android:id="@+id/numero2"
                 style="@style/botonGris"
-                android:text="@string/numero2"/>
+                android:onClick="numero2"
+                android:text="@string/numero2" />
 
             <Button
                 android:id="@+id/numero3"
                 style="@style/botonGris"
+                android:onClick="numero3"
                 android:text="@string/numero3" />
 
             <Button
@@ -98,10 +109,12 @@
         </LinearLayout>
 
         <LinearLayout style="@style/layoutHorizontal">
+
             <Button
                 android:id="@+id/numero0"
                 style="@style/botonGris"
-                android:text="@string/numero0"/>
+                android:text="@string/numero0"
+                android:onClick="numero0" />
 
             <Button
                 android:id="@+id/borrar"
@@ -114,6 +127,7 @@
                 android:text="@string/botonIgual" />
 
             <Button
+                android:id="@+id/multiplicar"
                 style="@style/botonAmarillo"
                 android:text="@string/botonMultiplicar" />
 
