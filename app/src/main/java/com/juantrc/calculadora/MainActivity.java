@@ -50,56 +50,9 @@ public class MainActivity extends AppCompatActivity {
         igual = (Button) findViewById(R.id.igual);
 
         textView = (TextView) findViewById(R.id.textView);
-
     }
 
     public void numero0(View v) {
-        cantidad += "0";
-        textView.setText(cantidad);
-    }
 
-    public void numero1(View v) {
-        cantidad += "1";
-        textView.setText(cantidad);
-    }
-
-    public void numero2(View v) {
-        cantidad += "2";
-        textView.setText(cantidad);
-    }
-
-    public void numero3(View v) {
-        cantidad += "3";
-        textView.setText(cantidad);
-    }
-
-    public void numero4(View v) {
-        cantidad += "4";
-        textView.setText(cantidad);
-    }
-
-    public void numero5(View v) {
-        cantidad += "5";
-        textView.setText(cantidad);
-    }
-
-    public void numero6(View v) {
-        cantidad += "6";
-        textView.setText(cantidad);
-    }
-
-    public void numero7(View v) {
-        cantidad += "7";
-        textView.setText(cantidad);
-    }
-
-    public void numero8(View v) {
-        cantidad += "8";
-        textView.setText(cantidad);
-    }
-
-    public void numero9(View v) {
-        cantidad += "9";
-        textView.setText(cantidad);
     }
 }

@@ -119,7 +119,8 @@
             <Button
                 android:id="@+id/borrar"
                 style="@style/botonAmarillo"
-                android:text="@string/botonBorrar"/>
+                android:onClick="borrar"
+                android:text="@string/botonBorrar" />
 
             <Button
                 android:id="@+id/igual"
