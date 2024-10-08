@@ -17,7 +17,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
     >
-
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
@@ -31,7 +30,6 @@
             android:textStyle="bold" />
 
         <LinearLayout style="@style/layoutHorizontal">
-
             <Button
                 android:id="@+id/numero7"
                 style="@style/botonGris"
@@ -57,7 +55,6 @@
         </LinearLayout>
 
         <LinearLayout style="@style/layoutHorizontal">
-
             <Button
                 android:id="@+id/numero4"
                 style="@style/botonGris"
@@ -83,7 +80,6 @@
         </LinearLayout>
 
         <LinearLayout style="@style/layoutHorizontal">
-
             <Button
                 android:id="@+id/numero1"
                 style="@style/botonGris"
@@ -109,7 +105,6 @@
         </LinearLayout>
 
         <LinearLayout style="@style/layoutHorizontal">
-
             <Button
                 android:id="@+id/numero0"
                 style="@style/botonGris"
@@ -131,7 +126,6 @@
                 android:id="@+id/multiplicar"
                 style="@style/botonAmarillo"
                 android:text="@string/botonMultiplicar" />
-
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
